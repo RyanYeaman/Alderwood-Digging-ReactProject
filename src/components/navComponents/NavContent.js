@@ -18,7 +18,7 @@ const NavContent = () => {
                 </div>
             </li>
             <li className="items">
-                <Link to="/" className="links">Our Work</Link>
+                <Link to="/our-work" className="links">Our Work</Link>
                 <div className="underline">
                     <span className="bar"></span>
                     <span className="bar"></span>

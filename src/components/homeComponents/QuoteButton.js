@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom"
 
 export const QuoteButton = () => {
   return (
     <>
         <button className="quote-button">
-            <a href="/" className="quote-link">GET A QUOTE</a>
+            <Link to="/get-quote" className="quote-link">GET A QUOTE</Link>
         </button>
     </>
   )

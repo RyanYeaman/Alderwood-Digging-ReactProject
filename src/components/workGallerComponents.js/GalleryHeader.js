@@ -1,0 +1,12 @@
+import React from 'react'
+
+const GalleryHeader = () => {
+  return (
+    <div id="services-header-container">
+        <h1 className="home-header-title">Alderwood Digging <br></br>Crew</h1>
+        <h3 className="header-introduction">Home <span className="header-nav-symbol">{">"}</span> Our Work </h3>
+    </div>
+  )
+}
+
+export default GalleryHeader

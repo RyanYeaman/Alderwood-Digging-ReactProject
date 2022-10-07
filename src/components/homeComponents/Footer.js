@@ -11,15 +11,15 @@ const Footer = () => {
         <h1 className="footer-contact-title">CONTACT US</h1>
         <div className="footer-contact-phone">
           <h2 className="footer-title">Phone</h2>
-          <p>416-660-1875</p>
+          <p className="contact-information">416-660-1875</p>
         </div>
         <div className="footer-contact-email">
           <h2 className="footer-title">E-mail</h2>
-          <p>Alderwooddigging@gmail.com</p>
+          <p className="contact-information">Alderwooddigging@gmail.com</p>
         </div>
         <div className="footer-contact-address">
           <h2 className="footer-title">Address</h2>
-          <p>289 Birmingham St Etobicoke, ON M8V 2E5</p>
+          <p className="contact-information">289 Birmingham St Etobicoke, ON M8V 2E5</p>
         </div>
       </div>
     </div>
